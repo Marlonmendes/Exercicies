@@ -1,10 +1,8 @@
 public class _693_BinaryNumberAlterning {
 
-
     public static void main(String[] args) {
         hasAlternatingBits(5);
     }
-
 
     public static boolean hasAlternatingBits(int n) {
         String strBinary = Integer.toBinaryString(n);
